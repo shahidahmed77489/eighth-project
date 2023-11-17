@@ -316,13 +316,29 @@
 
         <div class="section-12">
             <p>Copyright ©2023 All rights reserved | This template is made with <span><i
-                        class="fa-solid fa-star under-insta" style="color: yellow;"></i></span> by Colorlib</p>
+            class="fa-solid fa-star under-insta" style="color: yellow;"></i></span> by Colorlib</p>
         </div>
+
+
+                <div class="loader">
+                    <div class="center_loader">
+                    <img src="./images/34338d26023e5515f6cc8969aa027bca_w200.gif" alt="">
+                            
+                    </div>
+                </div>
+
 
         <script src="./js/jquery.min.js"></script>
         <script src="./js/owl.carousel.min.js"></script>
 
         <script>
+           let loader=document.querySelector(".loader")
+            window.addEventListener("load", ()=>{
+                loader.style.display="none"
+
+            })
+            
+
             $('.owl-carousel').owlCarousel({
                 loop: true,
                 margin: 40,
@@ -341,6 +357,7 @@
                 }
             }
             )
+              
         </script>
 </body>
 
